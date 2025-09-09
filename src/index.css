@@ -11,3 +11,9 @@
     - amber-400 (#FBBF24)
     - green-700 (#15803D)
 */
+
+@layer base {
+  html {
+    font-family: "Sansation", sans-serif;
+  }
+}

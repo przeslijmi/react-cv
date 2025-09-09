@@ -1,7 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
-import ScoresProvider from './frame/contexts/ScoresContext'
-import HomePage from './frame/pages/HomePage'
-import ContactPage from './frame/pages/ContactPage'
+import ScoresProvider from './contexts/ScoresContext'
+import HomePage from './pages/HomePage'
+import ContactPage from './pages/ContactPage'
+import MotivationPage from './pages/MotivationPage'
 
 interface Props {}
 
@@ -12,6 +13,7 @@ export default function App({}: Props) {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/motivation" element={<MotivationPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </main>
