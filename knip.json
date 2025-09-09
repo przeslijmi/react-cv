@@ -1,0 +1,10 @@
+{
+  "$schema": "https://unpkg.com/knip/schema.json",
+  "ignore": [
+    "vite.config.ts",
+    "tailwind.config.cjs",
+    "postcss.config.js",
+    "netlify.toml"
+  ],
+  "ignoreDependencies": ["tailwindcss", "autoprefixer", "postcss"]
+}
