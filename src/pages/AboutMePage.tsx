@@ -1,9 +1,10 @@
 import Layout from '@layouts/Layout';
 
-export default function ContactPage() {
+export default function AboutMePage() {
+
   return (
     <Layout>
-      Contact
+      About Me
     </Layout>
   )
 }

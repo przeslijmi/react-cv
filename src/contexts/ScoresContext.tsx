@@ -2,11 +2,11 @@ import type React from 'react';
 import { createContext } from 'react';
 
 export interface ScoresContextData {
-  motivationScore: number;
+  leaderScore: number;
 }
 
 const defaultValue = {
-  motivationScore: 0,
+  leaderScore: 0,
 }
 
 export const ScoresContext = createContext<ScoresContextData>(defaultValue);
